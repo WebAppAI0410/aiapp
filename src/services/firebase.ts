@@ -4,13 +4,13 @@ import { getFirestore } from 'firebase/firestore';
 import Constants from 'expo-constants';
 
 const firebaseConfig = {
-  apiKey: "YOUR_FIREBASE_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID",
-  measurementId: "YOUR_MEASUREMENT_ID"
+  apiKey: "AIzaSyCNOiKrNZ5bdDLQ8kpfgafiy7_yD9TL6g4",
+  authDomain: "aiapp-c7a9a.firebaseapp.com",
+  projectId: "aiapp-c7a9a",
+  storageBucket: "aiapp-c7a9a.firebasestorage.app",
+  messagingSenderId: "46041256282",
+  appId: "1:46041256282:android:125d26060b7555b7ea2363",
+  measurementId: "G-MEASUREMENT_ID" // Optional, can be removed if not used
 };
 
 const app = initializeApp(firebaseConfig);
