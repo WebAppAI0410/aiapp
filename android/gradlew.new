@@ -1,0 +1,2 @@
+#!/bin/sh
+exec java -Xmx64m -Dfile.encoding=UTF-8 -Duser.language=en -jar "$0.jar" "$@"
